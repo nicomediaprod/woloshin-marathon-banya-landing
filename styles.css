@@ -4092,6 +4092,32 @@ textarea {
 	border-radius: var(--radius-full);
 }
 
+.form-submit-row {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+	margin: 1.5rem 0;
+	padding: 1.25rem 1.5rem;
+	background: rgba(15, 27, 45, 0.6);
+	border: 1px solid var(--copper-glow);
+	border-radius: var(--radius-md);
+}
+
+.form-submit-row .total-price {
+	font-family: var(--font-sans);
+	font-size: 1.75rem;
+	font-weight: 800;
+	color: var(--copper);
+	letter-spacing: -0.01em;
+	flex-shrink: 0;
+}
+
+.form-submit-row .btn-submit-booking {
+	width: auto;
+	flex: 1;
+	padding: 1rem 1.5rem;
+}
+
 @media (max-width: 768px) {
 	.booking-wrapper {
 		padding: 1.75rem;
@@ -4102,10 +4128,18 @@ textarea {
 	.form-group.full-width {
 		grid-column: span 1;
 	}
-	.price-summary-box {
+	.form-submit-row {
 		flex-direction: column;
-		align-items: flex-start;
-		gap: 1rem;
+		align-items: stretch;
+		gap: 0.85rem;
+		padding: 1rem;
+	}
+	.form-submit-row .total-price {
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	.form-submit-row .btn-submit-booking {
+		width: 100%;
 	}
 }
 

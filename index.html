@@ -539,26 +539,11 @@
             </div>
           </div>
 
-          <div class="price-summary-box" style="flex-direction: column; align-items: flex-start; gap: 1rem;">
-            <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
-              <div class="price-calculation">
-                <span data-i18n="price_total_label">Итого к оплате:</span>
-                <div class="total-price-text" id="total-price-display">4 000 MDL</div>
-              </div>
-              <span style="background: rgba(230, 57, 70, 0.2); border: 1px solid var(--accent-red); color: var(--accent-red); padding: 0.3rem 0.8rem; border-radius: var(--radius-full); font-size: 0.8rem; font-weight: 700;">ВСЁ ВКЛЮЧЕНО</span>
-            </div>
-
-            <div style="width: 100%; border-top: 1px solid var(--border-light); padding-top: 1rem; font-size: 0.88rem; color: var(--text-muted);">
-              <div style="font-weight: 700; color: #fff; margin-bottom: 0.5rem;">В стоимость 4000 MDL входит:</div>
-              <div class="price-included-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
-                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> Билет на Chisinau Marathon</div>
-                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> VIP-приём &amp; персональный шкафчик</div>
-                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> Инд. спортивный массаж ног (30 мин)</div>
-                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> Мыльно-лыковый ритуал &amp; парение</div>
-                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> Ужин (первое + второе на выбор)</div>
-                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> Восстанавливающие электролиты</div>
-              </div>
-            </div>
+          <div class="form-submit-row">
+            <div class="total-price" id="total-price-display">4 000 MDL</div>
+            <button type="submit" class="btn-primary btn-submit-booking" id="btn-submit-booking" data-i18n="btn_submit_pay">
+              Забронировать
+            </button>
           </div>
 
           <div class="checkbox-group">
@@ -568,10 +553,6 @@
               <a href="#" class="refund-modal-link" id="refund-modal-trigger" data-i18n="lbl_refund_link">условиями возврата</a>
             </label>
           </div>
-
-          <button type="submit" class="btn-primary btn-submit-booking" id="btn-submit-booking" data-i18n="btn_submit_pay">
-            Забронировать
-          </button>
         </form>
       </div>
     </div>
