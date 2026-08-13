@@ -492,15 +492,12 @@ const translations = {
 
 // Global App State
 let currentLang = "RU";
-let ticketCount = 1;
-const TICKET_PRICE = 4000;
 const SPOTS_TOTAL = 24;
 const SPOTS_REMAINING = 18; // update this number as tickets sell; refreshed at 02:00 daily by admin
 
 document.addEventListener("DOMContentLoaded", () => {
 	initLanguageSwitcher();
 	initZoneTabs();
-	initTicketCalculator();
 	initModals();
 	initMobileMenu();
 	initLiveCountdown();
@@ -551,9 +548,6 @@ function applyTranslations(lang) {
 			elem.placeholder = dict[key];
 		}
 	});
-
-	// Update dynamic submit button text
-	updateTotalPrice();
 }
 
 // Zone Tabs Switching
@@ -618,60 +612,6 @@ function initZoneTabs() {
 			applyTranslations(currentLang);
 		});
 	});
-}
-
-// Ticket Count & Price Calculator
-function initTicketCalculator() {
-	const btnMinus = document.getElementById("ticket-minus");
-	const btnPlus = document.getElementById("ticket-plus");
-	const countDisplay = document.getElementById("ticket-count");
-
-	if (btnMinus) {
-		btnMinus.addEventListener("click", () => {
-			if (ticketCount > 1) {
-				ticketCount--;
-				if (countDisplay) countDisplay.textContent = ticketCount;
-				updateTotalPrice();
-			}
-		});
-	}
-
-	if (btnPlus) {
-		btnPlus.addEventListener("click", () => {
-			if (ticketCount < 4) {
-				ticketCount++;
-				if (countDisplay) countDisplay.textContent = ticketCount;
-				updateTotalPrice();
-			}
-		});
-	}
-}
-
-function updateTotalPrice() {
-	const totalPrice = ticketCount * TICKET_PRICE;
-	const formattedPrice = new Intl.NumberFormat("ru-RU").format(totalPrice);
-
-	const totalPriceElem = document.getElementById("total-price-display");
-	if (totalPriceElem) {
-		totalPriceElem.textContent = `${formattedPrice} MDL`;
-	}
-
-	const submitBtn = document.getElementById("btn-submit-booking");
-	if (submitBtn) {
-		if (currentLang === "RU") {
-			submitBtn.textContent = "Забронировать";
-		} else if (currentLang === "RO") {
-			submitBtn.textContent = "Rezervă";
-		} else {
-			submitBtn.textContent = "Reserve";
-		}
-	}
-}
-
-function getRussianTicketWord(num) {
-	if (num === 1) return "место";
-	if (num >= 2 && num <= 4) return "места";
-	return "мест";
 }
 
 // Modal Dialogs (Refund Policy & Success Modal)
