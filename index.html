@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Run and Relax × Chisinau Marathon | Recovery Slot Woloshin banya</title>
+  <meta name="description" content="13 сентября 2026. Эксклюзивный банный recovery-слот после Chisinau Marathon в Woloshin banya. 4000 MDL. Всего 24 места.">
+  <meta name="keywords" content="Woloshin banya, Chisinau Marathon, Run and Relax, марафон Кишинев, сауна recovery, спортивный массаж">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="#" class="brand-collab-logos">
+        <img src="./assets/woloshin_logo.png" alt="Woloshin banya" class="header-collab-logo">
+        <span class="logo-sep-line"></span>
+        <img src="./assets/marathon_logo.png" alt="Chisinau Marathon" class="header-collab-logo">
+      </a>
+
+      <div class="nav-actions">
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="RU">RU</button>
+          <button class="lang-btn" data-lang="RO">RO</button>
+          <button class="lang-btn" data-lang="EN">EN</button>
+        </div>
+
+        <a href="#booking" class="btn-header" data-i18n="nav_cta">Забронировать</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION 1: HERO (Dark Luxury Collab: RUN ✕ RECOVER) -->
+  <section class="hero-section" id="hero">
+    <!-- Steam/ember canvas overlay across hero -->
+    <canvas id="hero-steam-canvas" class="hero-canvas"></canvas>
+
+    <div class="container hero-container-inner">
+
+      <!-- MERGED TOP: STATUS/COUNTDOWN + OFFER (AT THE VERY TOP) -->
+      <div class="hero-offer-unified">
+        <div class="hero-offer-header">
+          <div class="hero-status-brand">
+            <span class="dot-pulse red"></span>
+            <span class="status-names">CHISINAU MARATHON ✕ WOLOSHIN BANYA</span>
+          </div>
+
+          <div class="hero-countdown-wrap">
+            <span class="countdown-label">ДО СТАРТА:</span>
+            <div class="countdown-timer">
+              <span class="cnt-num" id="cnt-days">31</span>
+              <span class="cnt-unit">ДНЕЙ</span>
+              <span class="cnt-num red" id="cnt-time">14:39:02</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-offer-body">
+          <div class="offer-left">
+            <h1 class="offer-title">1 Билет = Марафон + Восстановление</h1>
+            <p class="offer-subtitle">Покупая один ваучер, вы получаете и официальную регистрацию на Chisinau Marathon, и 5-часовую восстановительную программу в Woloshin banya.</p>
+            
+            <div class="hero-collab-logos-large">
+              <img src="./assets/woloshin_logo.png" alt="Woloshin banya" class="logo-large-img">
+              <span class="logo-large-divider"></span>
+              <img src="./assets/marathon_logo.png" alt="Chisinau Marathon" class="logo-large-img">
+            </div>
+          </div>
+
+          <div class="offer-right">
+            <div class="offer-status-badge">
+              <span class="status-pill-gold">Ограниченный тираж</span>
+              <span class="spots-count">Всего 24 места</span>
+            </div>
+
+            <div class="offer-price">
+              <span class="offer-price-num">4000</span>
+              <span class="offer-price-cur">MDL</span>
+            </div>
+
+            <div class="offer-cta-btns">
+              <a href="#booking" class="btn-hero-main">
+                <span>Забронировать →</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Dark Transition to Section 2 -->
+    <div class="hero-dark-transition"></div>
+  </section>
+
+  <!-- SECTION 2: MASTER UNIFIED VOUCHER & CONCEPT SECTION -->
+  <section class="section-padding voucher-master-section" id="about">
+    <div class="banya-smoke-layer about-section-smoke"></div>
+    <div class="container">
+      <div class="about-grid">
+        
+        <!-- LEFT COLUMN: MASTER VOUCHER PREVIEW CARD (CONTAINS LOGOS, 6 INCLUSIONS, AND QR CODE) -->
+        <div class="voucher-preview-card" style="margin: 0; align-self: stretch; display: flex; flex-direction: column; justify-content: space-between;">
+          <div class="voucher-card-header">
+            <h3 class="voucher-gold-title">Recovery Pass</h3>
+          </div>
+
+          <!-- VOUCHER CONTENT: COMPACT 6 INCLUSIONS -->
+          <div class="voucher-card-main-body" style="padding: 0.5rem 0 0.75rem;">
+
+            <!-- 6 INCLUSIONS INSIDE VOUCHER CARD -->
+            <div class="voucher-features-grid" style="gap: 0.7rem; margin-top: 0;">
+              <div class="voucher-feature-item">
+                <div class="feature-item-num">01</div>
+                <div class="feature-item-content">
+                  <div class="feature-item-title" style="font-size: 0.98rem;">Регистрация на марафон</div>
+                  <div class="feature-item-desc" style="font-size: 0.8rem;">Слот Chisinau Marathon (42 / 21 / 10 км)</div>
+                </div>
+              </div>
+
+              <div class="voucher-feature-item">
+                <div class="feature-item-num">02</div>
+                <div class="feature-item-content">
+                  <div class="feature-item-title" style="font-size: 0.98rem;">5-часовой восстановительный сеанс</div>
+                  <div class="feature-item-desc" style="font-size: 0.8rem;">Woloshin Banya (16:00–21:00)</div>
+                </div>
+              </div>
+
+              <div class="voucher-feature-item">
+                <div class="feature-item-num">03</div>
+                <div class="feature-item-content">
+                  <div class="feature-item-title" style="font-size: 0.98rem;">Спортивный массаж</div>
+                  <div class="feature-item-desc" style="font-size: 0.8rem;">Глубокая проработка мышц ног</div>
+                </div>
+              </div>
+
+              <div class="voucher-feature-item">
+                <div class="feature-item-num">04</div>
+                <div class="feature-item-content">
+                  <div class="feature-item-title" style="font-size: 0.98rem;">Парение и мойка</div>
+                  <div class="feature-item-desc" style="font-size: 0.8rem;">Дубовые веники, 90°C парная и мойка</div>
+                </div>
+              </div>
+
+              <div class="voucher-feature-item">
+                <div class="feature-item-num">05</div>
+                <div class="feature-item-content">
+                  <div class="feature-item-title" style="font-size: 0.98rem;">Восстанавливающий ужин</div>
+                  <div class="feature-item-desc" style="font-size: 0.8rem;">Блюдо на выбор (первое, второе)</div>
+                </div>
+              </div>
+
+              <div class="voucher-feature-item">
+                <div class="feature-item-num">06</div>
+                <div class="feature-item-content">
+                  <div class="feature-item-title" style="font-size: 0.98rem;">VIP-Приём и забота</div>
+                  <div class="feature-item-desc" style="font-size: 0.8rem;">Халат, полотенце и личный шкафчик</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FOOTER: QR CODE BOX -->
+          <div class="voucher-qr-box" style="margin-top: 1rem;">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=RR-2026-CHISINAU-MARATHON-WOLOSHIN" alt="QR Code">
+            <div class="voucher-qr-label">SCAN FOR ENTRY #018</div>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: EDITORIAL NARRATIVE + VISUAL PHOTO CARD -->
+        <div class="about-content" style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="editorial-tag-wrap">
+              <span class="dot-pulse gold"></span>
+              <span class="editorial-mono-tag">02 / ВОССТАНОВИТЕЛЬНАЯ ПРОГРАММА</span>
+            </div>
+
+            <h2 class="editorial-section-title" data-i18n="about_title">
+              Почему именно баня <span class="text-accent-gold">после марафона?</span>
+            </h2>
+
+            <p class="editorial-lead-p" data-i18n="about_p1">
+              Марафон — это испытание воли и мышц. Но то, что происходит в первые 5 часов после финиша, определяет, как ваше тело восстановится за последующие недели.
+            </p>
+
+            <p class="editorial-body-p" data-i18n="about_p2" style="margin-bottom: 1.5rem;">
+              Команда Woloshin Banya подготовила специальный банный комплекс для 24 бегунов. Без шумных компаний и случайных гостей — только тишина, пар, массаж и еда.
+            </p>
+          </div>
+
+          <!-- VISUAL PHOTO CARD WITH BOTTOM STATS BAR -->
+          <div class="about-card-visual" style="height: 320px;">
+            <img src="./assets/banya_serenity_plunge.jpeg" alt="Баня, купели и умиротворение" class="about-visual-img">
+            <div class="banya-smoke-layer"></div>
+            
+            <div class="about-visual-overlay-top">
+              <div class="about-dragon-logo-wrap">
+                <img src="./assets/dragon_logo.svg" alt="Dragon Grot" class="about-dragon-logo-img">
+              </div>
+              <div class="about-visual-overlay-title">Баня, купели и умиротворение</div>
+            </div>
+
+            <div class="about-visual-stats-bar">
+              <div class="stat-item">
+                <div class="stat-num">5 ч</div>
+                <div class="stat-lbl">Recovery слот</div>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <div class="stat-num" style="font-size: 1.15rem;">Электролиты</div>
+                <div class="stat-lbl">Банные напитки</div>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <div class="stat-num">24</div>
+                <div class="stat-lbl">Приватных места</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: UNIFIED EVENT TIMELINE (MARATHON + BANYA RECOVERY 06:00 - 21:00) -->
+  <section class="section-padding" id="timeline">
+    <div class="container">
+      <!-- SECTION 4 HEADER -->
+      <div class="section-title-wrap">
+        <h2 class="editorial-section-title" style="text-align: center;">От старта марафона <span class="text-accent-gold">до глубокого восстановления</span></h2>
+        <p class="timeline-header-subtitle">Единый график дня: официальные забеги Chisinau Marathon (06:00–15:30) + 5-часовой VIP recovery-слот в Woloshin banya (16:00–21:00)</p>
+      </div>
+
+      <!-- MARATHON ROUTE MAP SHOWCASE CARD -->
+      <div class="timeline-map-showcase">
+        <div class="timeline-map-card">
+          <div class="timeline-map-img-wrap">
+            <img src="./assets/marathon_route_map_official.png" alt="Карта и маршрут Chisinau Marathon" class="timeline-map-img">
+          </div>
+          <div class="timeline-map-info">
+            <div class="timeline-map-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/>
+                <line x1="8" y1="2" x2="8" y2="18"/>
+                <line x1="16" y1="6" x2="16" y2="22"/>
+              </svg>
+              <span>ОФИЦИАЛЬНАЯ ТРАССА MARATHON.MD</span>
+            </div>
+            <h3 class="timeline-map-title">Официальный маршрут забега</h3>
+            <p class="timeline-map-desc">Старт и финиш на Площади Великого Национального Собрания.</p>
+            <div class="timeline-map-pills">
+              <span class="timeline-map-pill">42.2 KM</span>
+              <span class="timeline-map-pill">21.1 KM</span>
+              <span class="timeline-map-pill">10 KM</span>
+              <span class="timeline-map-pill">5 KM</span>
+              <span class="timeline-map-pill">СТАРТ: ПЛ. ВЕЛИКОГО НАЦИОНАЛЬНОГО СОБРАНИЯ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- UNIFIED TIMELINE CONTAINER (06:00 TO 21:00) -->
+      <div class="timeline-wrap">
+        <div class="timeline-line"></div>
+
+        <!-- PHASE 1 HEADER BADGE: CHISINAU MARATHON (06:00 - 15:30) -->
+        <div class="timeline-phase-divider">
+          <span class="phase-badge red-phase">
+            <span class="dot-pulse red"></span>
+            <span>ФАЗА 1: CHISINAU MARATHON (06:00 – 15:30)</span>
+          </span>
+        </div>
+
+        <!-- 1. 06:00 - 08:00 -->
+        <div class="timeline-item day-phase">
+          <div class="timeline-dot red-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-time">06:00 – 08:00</div>
+            <h3>Выдача стартовых пакетов</h3>
+            <p>Выдача стартовых пакетов для иногородних участников на Площади Великого Национального Собрания.</p>
+          </div>
+        </div>
+
+        <!-- 2. 08:00 - 08:40 -->
+        <div class="timeline-item day-phase">
+          <div class="timeline-dot red-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-time">08:00 – 08:40</div>
+            <h3>Expo, Открытие &amp; Разминка</h3>
+            <p>08:00 — Работа Sport Expo. 08:15 — Церемония открытия. 08:20 — Разминка и построение в стартовых коридорах.</p>
+          </div>
+        </div>
+
+        <!-- 3. 08:55 - 09:00 -->
+        <div class="timeline-item day-phase highlight-item">
+          <div class="timeline-dot red-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-time">08:55 – 09:00</div>
+              <h3>ГЛАВНЫЙ СТАРТ ЗАБЕГОВ</h3>
+            <p>08:55 — Старт Marathon for ALL (колясочники). 09:00 — Общий старт участников 42.2 км, 21.1 км, 10 км, 5 км и Fun Run.</p>
+          </div>
+        </div>
+
+        <!-- 4. 09:40 - 10:30 -->
+        <div class="timeline-item day-phase">
+          <div class="timeline-dot red-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-time">09:40 – 10:30</div>
+            <h3>Финиши 5 км &amp; 10 км + Награждение</h3>
+            <p>09:40 — Лимит Fun Run. 09:45 — Лимит 5 км. 10:30 — Лимит 10 км и церемония награждения Absolut / 4ALL.</p>
+          </div>
+        </div>
+
+        <!-- 5. 12:00 - 13:30 -->
+        <div class="timeline-item day-phase">
+          <div class="timeline-dot red-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-time">12:00 – 13:30</div>
+            <h3>Финиш Полумарафона (21.1 км)</h3>
+            <p>12:00 — Лимит Полумарафона. 12:30 — Награждение Absolut (21 км, 42 км). 13:30 — Награждение возрастных категорий.</p>
+          </div>
+        </div>
+
+        <!-- 6. 15:00 - 15:30 -->
+        <div class="timeline-item day-phase">
+          <div class="timeline-dot red-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-time">15:00 – 15:30</div>
+            <h3>Финал Марафона &amp; Закрытие</h3>
+            <p>15:00 — Лимит времени на Марафон (42.2 км) и главная церемония. 15:30 — Официальное закрытие забегов.</p>
+          </div>
+        </div>
+
+        <!-- PHASE 2 HEADER BADGE: WOLOSHIN BANYA RECOVERY (16:00 - 21:00) -->
+        <div class="timeline-phase-divider" style="margin-top: 2rem;">
+          <span class="phase-badge gold-phase">
+            <span class="dot-pulse gold"></span>
+            <span>ФАЗА 2: WOLOSHIN BANYA VIP RECOVERY (16:00 – 21:00)</span>
+          </span>
+        </div>
+
+        <!-- 7. 16:00 -->
+        <div class="timeline-item sunset-phase">
+          <div class="timeline-dot gold-dot"></div>
+          <div class="timeline-content banya-highlight-card">
+            <div class="timeline-time">16:00</div>
+            <h3 style="display: flex; align-items: center; gap: 0.55rem;">
+              <img src="./assets/woloshin_logo.png" alt="Woloshin banya" style="height: 22px; width: auto; object-fit: contain;">
+              <span>Прибытие в Woloshin banya</span>
+            </h3>
+            <p>Трансфер и прибытие участников. Выдача персонального халата, полотенца и первого гидратационного электролита.</p>
+          </div>
+        </div>
+
+        <!-- 8. 16:30 -->
+        <div class="timeline-item sunset-phase">
+          <div class="timeline-dot gold-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-time">16:30</div>
+            <h3>Заезд &amp; Первичный контраст</h3>
+            <p>Ознакомительный легкий заход в парную (90°C), окунание в артезианскую купель (8°C) для снятия усталости.</p>
+          </div>
+        </div>
+
+        <!-- 9. 17:30 -->
+        <div class="timeline-item night-phase">
+          <div class="timeline-dot gold-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-time">17:30</div>
+            <h3>Индивидуальный массаж &amp; Мыльная мойка</h3>
+            <p>Персональный спортивный массаж ног (30 мин) для каждого атлета + традиционная мыльно-лыковая мойка.</p>
+          </div>
+        </div>
+
+        <!-- 10. 19:00 -->
+        <div class="timeline-item night-phase">
+          <div class="timeline-dot gold-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-time">19:00</div>
+            <h3>Классическое парение вениками</h3>
+            <p>Глубокий банный ритуал с пар-мастером, дубовые веники, ароматерапия и глубокий прогрев мышц.</p>
+          </div>
+        </div>
+
+        <!-- 11. 20:00 -->
+        <div class="timeline-item night-phase">
+          <div class="timeline-dot gold-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-time">20:00</div>
+            <h3>Восстанавливающий ужин &amp; Chill</h3>
+            <p>Сытный ужин (токана с мамалыгой), авторские банные электролиты и общение в уютной трапезной.</p>
+          </div>
+        </div>
+
+        <!-- 12. 21:00 -->
+        <div class="timeline-item night-phase">
+          <div class="timeline-dot gold-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-time">21:00</div>
+            <h3>Завершение программы</h3>
+            <p>Полное восполнение сил, легкие ноги и состояние абсолютного умиротворения после марафона.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: FAQ ACCORDION -->
+  <section class="section-padding faq-section" id="faq">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="editorial-tag-wrap" style="justify-content: center;">
+          <span class="dot-pulse gold"></span>
+          <span class="editorial-mono-tag">05 / ВОПРОСЫ И ОТВЕТЫ</span>
+        </div>
+        <h2 class="editorial-section-title" style="text-align: center;">Часто задаваемые <span class="text-accent-gold">вопросы</span></h2>
+        <p style="color: var(--text-muted); font-size: 1rem; text-align: center; max-width: 600px; margin: 0 auto;">Всё, что вам нужно знать перед покупкой единого ваучера</p>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question" type="button">
+            <span>Что входит в стоимость ваучера 4 000 MDL?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              В стоимость входит официальная регистрация на Chisinau Marathon (любая дистанция), а также полный 5-часовой VIP recovery-сеанс в комплексе Woloshin Banya: 30-минутный персональный массаж ног, банный ритуал с вениками, мыльно-лыковая мойка, ужин с мамалыгой и токаной, восстанавливающие электролиты.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">
+            <span>Что делать, если я уже зарегистрирован на Chisinau Marathon?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Без проблем! Вы можете передать регистрационный слот на марафон другу или пробежать марафон по своему текущему слоту, а входящий в ваучер билет подарить близкому человеку.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">
+            <span>Как оформить ваучер в подарок?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              При оформлении бронирования укажите имя получателя или отметьте в поле "Особенности", что ваучер покупается в подарок. Наш менеджер вышлет вам брендированный электронный или печатный подарочный сертификат.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">
+            <span>Где расположен комплекс Woloshin Banya и как добраться?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Комплекс Woloshin Banya расположен в Кишиневе в 10 минутах езды от центра. На территории есть охраняемая приватная парковка. Для гостей доступна удобная навигация и координация в Telegram.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">
+            <span>Каковы условия возврата денег при отмене?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              При отмене не позднее чем за 14 дней до события (до 31.08.2026) осуществляется 100% возврат средств. При отмене менее чем за 14 дней — возврат 50% либо свободный перенос ваучера на другого человека.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7: BOOKING FORM & PAYMENT -->
+  <section class="section-padding booking-section" id="booking">
+    <div class="banya-smoke-layer"></div>
+    <div class="container">
+      <div class="booking-wrapper">
+        <div class="booking-header">
+          <div class="editorial-tag-wrap" style="justify-content: center;">
+            <span class="dot-pulse gold"></span>
+            <span class="editorial-mono-tag">06 / ОФИЦИАЛЬНОЕ БРОНИРОВАНИЕ</span>
+          </div>
+          <h2 class="editorial-section-title" style="text-align: center;" data-i18n="book_title">Забронировать <span class="text-accent-gold">recovery-пакет</span></h2>
+          <div class="spots-remaining-pill" style="margin: 0.5rem auto 0 auto; display: inline-flex;">
+            <span class="spots-pulse"></span>
+            <span>Всего 24 места в слоте</span>
+          </div>
+        </div>
+
+        <form id="booking-form">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name_input" data-i18n="lbl_name">Ваше Имя и Фамилия</label>
+              <input type="text" id="name_input" required placeholder="Иван Иванов" data-i18n-ph="ph_name">
+            </div>
+
+            <div class="form-group">
+              <label for="phone_input" data-i18n="lbl_phone">Номер телефона</label>
+              <input type="tel" id="phone_input" required placeholder="+373 60 000 000" data-i18n-ph="ph_phone">
+            </div>
+
+            <div class="form-group">
+              <label for="email_input" data-i18n="lbl_email">Email адрес</label>
+              <input type="email" id="email_input" required placeholder="runner@example.com" data-i18n-ph="ph_email">
+            </div>
+
+            <div class="form-group">
+              <label data-i18n="lbl_tickets">Количество билетов (4000 MDL / шт)</label>
+              <div class="ticket-selector">
+                <button type="button" class="ticket-btn" id="ticket-minus">-</button>
+                <span class="ticket-count" id="ticket-count">1</span>
+                <button type="button" class="ticket-btn" id="ticket-plus">+</button>
+                <span style="font-size: 0.85rem; color: var(--text-muted); margin-left: auto;">Макс 4 места на чек</span>
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="food_input" data-i18n="lbl_food">Особенности питания (опционально)</label>
+              <textarea id="food_input" rows="3" placeholder="Например: вегетарианство, аллергия на орехи..." data-i18n-ph="ph_food"></textarea>
+            </div>
+          </div>
+
+          <div class="price-summary-box" style="flex-direction: column; align-items: flex-start; gap: 1rem;">
+            <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+              <div class="price-calculation">
+                <span data-i18n="price_total_label">Итого к оплате:</span>
+                <div class="total-price-text" id="total-price-display">4 000 MDL</div>
+              </div>
+              <span style="background: rgba(230, 57, 70, 0.2); border: 1px solid var(--accent-red); color: var(--accent-red); padding: 0.3rem 0.8rem; border-radius: var(--radius-full); font-size: 0.8rem; font-weight: 700;">ВСЁ ВКЛЮЧЕНО</span>
+            </div>
+
+            <div style="width: 100%; border-top: 1px solid var(--border-light); padding-top: 1rem; font-size: 0.88rem; color: var(--text-muted);">
+              <div style="font-weight: 700; color: #fff; margin-bottom: 0.5rem;">В стоимость 4000 MDL входит:</div>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> Билет на Chisinau Marathon</div>
+                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> VIP-приём &amp; персональный шкафчик</div>
+                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> Инд. спортивный массаж ног (30 мин)</div>
+                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> Мыльно-лыковый ритуал &amp; парение</div>
+                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> Ужин (первое + второе на выбор)</div>
+                <div style="display: flex; align-items: center; gap: 0.4rem; color: var(--text-main);"><span style="color: var(--accent-gold);">✓</span> Восстанавливающие электролиты</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="checkbox-group">
+            <input type="checkbox" id="agree_check" required checked>
+            <label for="agree_check">
+              <span data-i18n="lbl_agree">Я согласен с правилами посещения и </span>
+              <a href="#" class="refund-modal-link" id="refund-modal-trigger" data-i18n="lbl_refund_link">условиями возврата</a>
+            </label>
+          </div>
+
+          <button type="submit" class="btn-primary btn-submit-booking" id="btn-submit-booking" data-i18n="btn_submit_pay">
+            Забронировать
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL: REFUND POLICY -->
+  <div class="modal-backdrop" id="refund-modal">
+    <div class="modal-window">
+      <button class="modal-close-btn modal-close-trigger">&times;</button>
+      <h3 class="modal-title" data-i18n="refund_title">Условия бронирования и возврата</h3>
+      <div class="modal-body">
+        <p data-i18n="refund_p1">Для сохранения камерности слота количество мест ограничено 24 участниками.</p>
+        <ul>
+          <li data-i18n="refund_li1">Возврат 100% — при отмене бронирования не позднее чем за 14 дней до события (до 31.08.2026 включительно).</li>
+          <li data-i18n="refund_li2">Возврат 50% — при отмене менее чем за 14 дней (или возможность перенести бронь на другого человека).</li>
+          <li data-i18n="refund_li3">Возврат 100% — в случае форс-мажорных обстоятельств со стороны организаторов.</li>
+        </ul>
+      </div>
+      <button class="btn-primary modal-close-trigger" style="width: 100%; margin-top: 1.5rem;" data-i18n="refund_close">Понятно</button>
+    </div>
+  </div>
+
+  <!-- MODAL: SUCCESS CONFIRMATION -->
+  <div class="modal-backdrop" id="success-modal">
+    <div class="modal-window" style="text-align: center;">
+      <button class="modal-close-btn modal-close-trigger">&times;</button>
+      <div style="display: flex; justify-content: center; margin-bottom: 1rem;">
+        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="filter: drop-shadow(0 0 16px rgba(230, 57, 70, 0.7));">
+          <path d="M12 2c.5 2.5 1.5 4 3.5 6 2.5 2.5 3.5 5.5 2.5 9-1 3.5-4 5-6 5s-5-1.5-6-5c-1-3.5 0-6.5 2.5-9 2-2 3-3.5 3.5-6z" fill="rgba(230, 57, 70, 0.2)"/>
+          <path d="M12 12c.5 1 1 1.5 2 2.5 1 1 1 2 .5 3.5-.5 1-1.5 1.5-2.5 1.5s-2-.5-2.5-1.5c-.5-1.5 0-2.5 1-3.5 1-1 1.5-1.5 1.5-2.5z" fill="var(--accent-gold)"/>
+        </svg>
+      </div>
+      <h3 class="modal-title" data-i18n="success_title">Заявка успешно создана!</h3>
+      <div class="modal-body">
+        <p data-i18n="success_desc" style="margin-bottom: 1rem;">Спасибо! Мы зарезервировали ваши места на recovery-слот 13 сентября.</p>
+        <p data-i18n="success_step" style="color: var(--accent-gold); font-weight: 600;">Менеджер Woloshin Banya свяжется с вами в Telegram/WhatsApp для подтверждения деталей и оплаты.</p>
+      </div>
+      <button class="btn-primary modal-close-trigger" style="width: 100%; margin-top: 2rem;" data-i18n="success_close">Закрыть</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-collab-logos" style="margin-bottom: 0.85rem;">
+            <img src="./assets/woloshin_logo.png" alt="Woloshin Banya" class="header-collab-logo">
+            <span class="logo-sep-line"></span>
+            <img src="./assets/marathon_logo.png" alt="Chisinau Marathon" class="header-collab-logo">
+          </div>
+          <p>Специальный recovery-проект Woloshin Banya для участников Chisinau Marathon 2026.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Навигация</h4>
+          <ul>
+            <li><a href="#about">О событии</a></li>
+            <li><a href="#three-r">Концепт 3R</a></li>
+            <li><a href="#zones">Зоны комплекса</a></li>
+            <li><a href="#timeline">Программа</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="https://t.me/woloshinbanya" target="_blank">Telegram Bot</a></li>
+            <li><a href="https://wa.me/37360000000" target="_blank">WhatsApp</a></li>
+            <li><a href="https://instagram.com/woloshinbanya" target="_blank">Instagram</a></li>
+            <li><a href="tel:+37360000000">+373 60 000 000</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Woloshin Banya. Все права защищены.</div>
+        <div>Локация: Woloshin Banya, Кишинев</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY BAR FOR AD TRAFFIC -->
+  <div class="mobile-sticky-bar" id="mobile-sticky-bar">
+    <div class="mobile-sticky-info">
+      <span class="mobile-sticky-price" data-i18n="sticky_price">4 000 MDL</span>
+      <span class="mobile-sticky-sub" data-i18n="sticky_spots">Осталось 18 мест из 24</span>
+    </div>
+    <a href="#booking" class="btn-primary" data-i18n="sticky_cta" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">Забронировать →</a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./script.js"></script>
+</body>
+</html>
