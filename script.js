@@ -150,7 +150,7 @@ const translations = {
 		t6_desc: "Вы снова полны сил и энергии.",
 
 		book_tag: "Официальное бронирование",
-		book_title: "Забронировать recovery-пакет",
+		book_title: "Забронировать место в бане",
 		book_spots: "Осталось {{spots}} мест из {{total}}",
 		sticky_price: "4 000 MDL",
 		sticky_spots: "Осталось {{spots}} мест из {{total}}",
