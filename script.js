@@ -27,19 +27,25 @@ const translations = {
 		countdown_days: "дней",
 
 		about_tag: "Коллаборация Woloshin banya × Chisinau Marathon",
-		about_title: "Почему именно баня после марафона?",
-		about_p1:
-			"Марафон — это испытание воли и мышц. Но то, что происходит в первые 5 часов после финиша, определяет, как ваше тело восстановится за последующие недели.",
-		about_p2:
-			"Команда Woloshin banya подготовила специальный банный комплекс для 24 бегунов. Без шумных компаний и случайных гостей — только тишина, пар, массаж и еда.",
-		feat1_title: "Персональный массаж",
-		feat1_desc: "Спортивная проработка ног для каждого",
-		feat2_title: "Мыльно-лыковый ритуал",
-		feat2_desc: "Глубокое очищение пор и расслабление суставов",
-		feat3_title: "Парная 90°C + Купель 8°C",
-		feat3_desc: "Термоконтраст для сброса молочной кислоты",
-		feat4_title: "Восстанавливающий ужин",
-		feat4_desc: "Сытная мамалыга с токаной + банный электролит",
+		steps_tag: "01 / ПРОГРАММА ВОССТАНОВЛЕНИЯ",
+		steps_title: "Что тебя ожидает после марафона",
+		steps_subtitle:
+			"5 последовательных этапов для вывода лактата, снятия мышечного спазма и глубокого перезапуска всего тела.",
+		step1_title: "Персональный приём & Электролиты",
+		step1_desc:
+			"Встреча в Woloshin banya, выдача мягкого халата, полотенца и персонального шкафчика. Приветственный авторский банный напиток-электролит для быстрой регидратации.",
+		step2_title: "Контрастные купели & Кристальный пруд",
+		step2_desc:
+			"Мощный термоконтраст: ледяная купель (+8°C) моментально сужает сосуды и гасит воспаление в мышцах ног, а теплая купель глубоко расслабляет связки.",
+		step3_title: "Глиняная парная & Парение вениками",
+		step3_desc:
+			"Кедровые полки с ароматным сеном, мягкий пар и глубокая пробивка дубовыми вениками от сертифицированных пар-мастеров для скорейшего вывода молочной кислоты.",
+		step4_title: "Спортивный массаж ног & Мыльная мойка",
+		step4_desc:
+			"Индивидуальный спортивный массаж с акцентом на забитые икры и стопы, с последующим старинным мыльно-лыковым ритуалом для глубокого расслабления и очищения.",
+		step5_title: "Восстанавливающий ужин & Трапеза",
+		step5_desc:
+			"Сытный горячий ужин в каминной трапезной: первое блюдо, традиционная молдавская токана с мамалыгой, свежие ягодные лимонады и травяные сборы для восполнения запасов гликогена.",
 
 		three_r_tag: "Концепция 3R",
 		three_r_title: "Три фазы вашего вечера",
@@ -90,13 +96,29 @@ const translations = {
 		zone3_b2: "Авторский банный напиток-электролит",
 		zone3_b3: "Домашний лимонад из лесных ягод",
 
+		stejar_section_title: "Проводится в комплексе Dragon:",
+		stejar_1_title: "Холодная купель",
+		stejar_1_desc: "Ледяная купель с артезианской водой (+8°C) для мощного контраста после парной. Моментально тонизирует сосуды и снимает воспаление в мышцах.",
+		stejar_2_title: "Горячая купель",
+		stejar_2_desc: "Деревянная бочка с горячей водой (+38С) для глубокого прогрева. Ароматы цитруса и хвои, снимающие напряжение.",
+		stejar_3_title: "Кристальный пруд",
+		stejar_3_desc: "Кристально чистая холодная вода. Глубина более 2 метров. Огромные гранитные валуны и успокаивающий водопад.",
+		stejar_4_title: "Ароматное парение",
+		stejar_4_desc: "Кедровые полки, покрытые ароматным сеном. Мягкое парение при температуре +60С и высокой влажности. Только живой запах трав без эфирных масел и эссенций.",
+		stejar_5_title: "Глиняная Трипольская баня",
+		stejar_5_desc: "Потрясающий дизайн, мощная печь с уникальным паром и ощущаемая энергия тысячелетий наших предков создают атмосферу неповторимого парения.",
+		stejar_6_title: "Индивидуальное парение",
+		stejar_6_desc: "Активная пробивка горячим паром и дубовыми вениками. Особые программы парения на любой вкус.",
+		stejar_7_title: "Массаж",
+		stejar_7_desc: "Несколько разновидностей массажа для максимального расслабления и оздоровления.",
+
 		reasons_tag: "Преимущества",
 		reasons_title: "Почему стоит выбрать этот слот",
 		reas1_title: "Разработано для бегунов",
 		reas1_desc: "Разработана банными мастерами для скорейшего восстановления.",
-		reas2_title: "Единый пакет 2-в-1",
+		reas2_title: "Всё включено (All-Inclusive)",
 		reas2_desc:
-			"Билет на Chisinau Marathon + массаж + парение + мойка + ужин и электролиты. Всё включено в ваучер 4000 MDL.",
+			"Персональный массаж ног + банный ритуал с вениками + мыльно-лыковая мойка + сытный ужин и электролиты. Полный комплекс заботы в одном ваучере 4000 MDL.",
 		reas3_title: "Камерность: 24 места",
 		reas3_desc:
 			"Ограниченное количество гостей гарантирует персональное внимание мастеров и отсутствие суеты.",
@@ -188,19 +210,25 @@ const translations = {
 		countdown_days: "zile",
 
 		about_tag: "Colaborare Woloshin banya × Chisinau Marathon",
-		about_title: "De ce tocmai banya după maraton?",
-		about_p1:
-			"Maratonul este o probă de voință și rezistență. Dar primele 5 ore de după finiș determină rapiditatea recuperării organismului tău.",
-		about_p2:
-			"Echipa Woloshin banya a pregătit spațiul exclusiv pentru 24 de alergători. Fără gălăgie sau alți oaspeți — doar liniște, abur, masaj și mâncare caldă.",
-		feat1_title: "Masaj sportiv individual",
-		feat1_desc: "Masaj intensiv al picioarelor",
-		feat2_title: "Spălare ritualică cu tei",
-		feat2_desc: "Curățare profundă și relaxare articulară",
-		feat3_title: "Saună 90°C + Baie rece 8°C",
-		feat3_desc: "Termocontrast pentru eliminarea acidului lactic",
-		feat4_title: "Cină de reabilitare",
-		feat4_desc: "Mămăligă caldă cu tocană + băutură electrolitică",
+		steps_tag: "01 / PROGRAM DE RECUPERARE",
+		steps_title: "Ce te așteaptă după maraton",
+		steps_subtitle:
+			"5 etape consecutive pentru eliminarea acidului lactic, reducerea spasmelor musculare și regenerarea completă a corpului.",
+		step1_title: "Primire personalizată & Electroliți",
+		step1_desc:
+			"Sosire la Woloshin banya, primirea halatului moale, a prosopului și a dulapului personal. Băutură artizanală electrolitică pentru rehidratare rapidă.",
+		step2_title: "Băi de contrast & Iaz de cristal",
+		step2_desc:
+			"Contrast termic puternic: ciubărul rece (+8°C) calmează inflamația musculară, iar ciubărul cald relaxează profund tendoanele.",
+		step3_title: "Saună de lut & Ritual cu măturici",
+		step3_desc:
+			"Polițe de cedru cu fân aromat, abur blând și încălzire profundă cu măturici de stejar conduse de maeștri parangii pentru eliminarea acidului lactic.",
+		step4_title: "Masaj sportiv al picioarelor & Spălare ritualică",
+		step4_desc:
+			"Masaj sportiv personalizat axat pe gambe și tălpi, urmat de ritualul străvechi de spălare cu tei pentru curățare și relaxare profundă.",
+		step5_title: "Cină de regenerare & Tradiție",
+		step5_desc:
+			"Cină caldă și copioasă lângă șemineu: felul 1, tocană moldovenească tradițională cu mămăligă, limonade proaspete de pădure și ceaiuri din plante.",
 
 		three_r_tag: "Conceptul 3R",
 		three_r_title: "Cele trei faze ale serii tale",
@@ -251,13 +279,29 @@ const translations = {
 		zone3_b2: "Băutură artizanală electrolitică de baie",
 		zone3_b3: "Limonadă de casă din fructe de pădure",
 
+		stejar_section_title: "Se desfășoară în complexul Dragon:",
+		stejar_1_title: "Ciubăr rece",
+		stejar_1_desc: "Ciubăr cu apă rece arteziană (+8°C) pentru un contrast puternic după saună. Tonifiază instant vasele și reduce inflamația musculară.",
+		stejar_2_title: "Ciubăr fierbinte",
+		stejar_2_desc: "Butoi din lemn cu apă fierbinte (+38°C) pentru încălzire profundă. Arome de citrice și conifere ce elimină tensiunea.",
+		stejar_3_title: "Iaz de cristal",
+		stejar_3_desc: "Apă rece de o puritate cristalină. Adâncime de peste 2 metri. Bolovani uriași de granit și o cascadă liniștitoare.",
+		stejar_4_title: "Aburire aromată",
+		stejar_4_desc: "Polițe din cedru acoperite cu fân aromat. Aburire blândă la +60°C și umiditate ridicată. Doar mireasmă vie de ierburi fără uleiuri sintetice.",
+		stejar_5_title: "Baia de lut Tripoliană",
+		stejar_5_desc: "Design impresionant, sobă puternică cu abur unic și energia milenară a strămoșilor ce creează o atmosferă inegalabilă de relaxare.",
+		stejar_6_title: "Aburire individuală",
+		stejar_6_desc: "Încălzire activă cu abur fierbinte și mături din stejar. Programe speciale de relaxare pentru fiecare gust.",
+		stejar_7_title: "Masaj",
+		stejar_7_desc: "Diferite tipuri de masaj pentru relaxare musculară maximă și recuperare completă.",
+
 		reasons_tag: "Avantaje",
 		reasons_title: "De ce să alegi acest slot",
 		reas1_title: "Conceput pentru alergători",
 		reas1_desc: "Conceput de maeștri banya pentru o recuperare rapidă.",
-		reas2_title: "Pachet All-in-One 2-în-1",
+		reas2_title: "Pachet All-Inclusive",
 		reas2_desc:
-			"Bilet Chisinau Marathon + masaj + saună + spălare + mâncare și băuturi. Totul inclus în voucherul de 4000 MDL.",
+			"Masaj personal al picioarelor + saună tradițională cu măturici + spălare ritualică + cină caldă și electroliți. Totul inclus în voucherul de 4000 MDL.",
 		reas3_title: "Exclusivitate: 24 locuri",
 		reas3_desc:
 			"Numărul limitat de participanți garantează atenție maximă din partea echipei noastre.",
@@ -349,19 +393,25 @@ const translations = {
 		countdown_days: "days",
 
 		about_tag: "Woloshin banya × Chisinau Marathon Collaboration",
-		about_title: "Why Sauna & Bath Rituals After a Marathon?",
-		about_p1:
-			"Running a marathon tests your grit. But what happens in the first 5 hours post-finish line dictates how fast your muscles recover over the next few weeks.",
-		about_p2:
-			"Woloshin banya has prepared the facility exclusively for 24 runners. No crowds or random guests — just quiet steam, deep tissue massage, and nourishing food.",
-		feat1_title: "Individual Sports Massage",
-		feat1_desc: "Focused leg recovery for every athlete",
-		feat2_title: "Soap & Bast Bath Ritual",
-		feat2_desc: "Deep skin detox and joint tension release",
-		feat3_title: "90°C Sauna + 8°C Cold Plunge",
-		feat3_desc: "Thermal contrast to quickly flush lactic acid",
-		feat4_title: "Recovery Feast & Drinks",
-		feat4_desc: "Hearty traditional stew with mamaliga + electrolyte drink",
+		steps_tag: "01 / RECOVERY PROGRAM",
+		steps_title: "What Awaits You After the Marathon",
+		steps_subtitle:
+			"5 consecutive phases to flush lactic acid, eliminate muscle spasms, and revitalize your body.",
+		step1_title: "Personal Reception & Electrolytes",
+		step1_desc:
+			"Arrival at Woloshin banya, plush robe, towel, and private locker. House craft electrolyte recovery tonic for immediate rehydration.",
+		step2_title: "Thermal Plunge Contrast & Crystal Pond",
+		step2_desc:
+			"High-contrast immersion: chilled cold plunge (+8°C) rapidly reduces leg muscle inflammation, while warm thermal tub eases tendon tension.",
+		step3_title: "Clay Steam Room & Oak Broom Ritual",
+		step3_desc:
+			"Cedar benches layered with wild hay, gentle herbal steam, and deep oak broom revival by master bathers to flush lactic acid.",
+		step4_title: "Targeted Sports Leg Massage & Soap Wash",
+		step4_desc:
+			"Focused 30-min sports massage targeting sore calves and feet, followed by authentic natural soap washing ritual for deep tissue relaxation.",
+		step5_title: "Post-Run Nourishing Feast & Chill",
+		step5_desc:
+			"Warm wholesome fireside dinner: hot soup, traditional Moldavian tocană stew with mamaliga, wild berry lemonades, and botanical herbal teas.",
 
 		three_r_tag: "3R Concept",
 		three_r_title: "Three Phases of Your Recovery Evening",
@@ -413,13 +463,29 @@ const translations = {
 		zone3_b2: "House electrolyte recovery bath tonic",
 		zone3_b3: "Fresh craft wild berry lemonade",
 
+		stejar_section_title: "Held in the Dragon Complex:",
+		stejar_1_title: "Cold Plunge Tub",
+		stejar_1_desc: "Artesian cold plunge (+8°C) for thermal contrast recovery after the hot steam room. Instantly stimulates circulation and flushes leg inflammation.",
+		stejar_2_title: "Hot Thermal Plunge",
+		stejar_2_desc: "Wooden hot tub (+38°C) for deep thermal warm-up. Infused with natural citrus and pine aromas that relieve stress.",
+		stejar_3_title: "Crystal Pond",
+		stejar_3_desc: "Crystal-clear natural cold water. Over 2 meters deep with giant granite boulders and a soothing waterfall.",
+		stejar_4_title: "Aromatic Steam Ritual",
+		stejar_4_desc: "Cedar benches layered with fragrant wild hay. Gentle steam at +60°C with high humidity and pure botanical herbal aroma.",
+		stejar_5_title: "Cucuteni-Trypillian Clay Bathhouse",
+		stejar_5_desc: "Stunning authentic clay architecture, powerful hearth stove with unique steam, and ancient energy for a magical bathing experience.",
+		stejar_6_title: "Individual Steam Session",
+		stejar_6_desc: "Deep thermal revival with hot steam and oak brooms. Tailored sauna rituals for every preference.",
+		stejar_7_title: "Therapeutic Massage",
+		stejar_7_desc: "Tailored post-run restorative massage techniques for total muscle recovery and revitalization.",
+
 		reasons_tag: "Key Highlights",
 		reasons_title: "Why Choose This Recovery Experience",
 		reas1_title: "Engineered for Runners",
 		reas1_desc: "Designed by banya masters for fast recovery.",
-		reas2_title: "2-in-1 All-Inclusive Voucher",
+		reas2_title: "All-Inclusive Recovery Voucher",
 		reas2_desc:
-			"Chisinau Marathon ticket + massage, steaming, soap ritual, dinner, and drinks — all included in a single 4000 MDL voucher.",
+			"Sports leg massage + oak broom steaming ritual + soap wash + recovery dinner and electrolytes. Everything included in a single 4000 MDL voucher.",
 		reas3_title: "Strictly Limited to 24 Guests",
 		reas3_desc:
 			"An intimate setting ensuring personal care, zero rush, and maximum comfort.",
@@ -506,8 +572,34 @@ document.addEventListener("DOMContentLoaded", () => {
 	initHeroInteractiveSplit();
 	initHero3RSlider();
 	initFaqAccordion();
+	initBookingGuestsCalculator();
 	applyTranslations(currentLang);
 });
+
+// Dynamic Calculator for Booking Guests & Total Price
+function initBookingGuestsCalculator() {
+	const select = document.getElementById("guests_count");
+	const totalDisplay = document.getElementById("total-price-display");
+	const submitBtn = document.getElementById("btn-submit-booking");
+
+	if (!select || !totalDisplay) return;
+
+	select.addEventListener("change", () => {
+		const count = parseInt(select.value, 10) || 1;
+		const total = count * 4000;
+		const formatted = total.toLocaleString("ru-RU") + " MDL";
+		totalDisplay.textContent = formatted;
+		if (submitBtn) {
+			if (currentLang === "RO") {
+				submitBtn.textContent = `Rezervă (${formatted}) →`;
+			} else if (currentLang === "EN") {
+				submitBtn.textContent = `Book Recovery Pass (${formatted}) →`;
+			} else {
+				submitBtn.textContent = `Забронировать (${formatted}) →`;
+			}
+		}
+	});
+}
 
 // Language Switching Logic
 function initLanguageSwitcher() {
@@ -528,6 +620,8 @@ function initLanguageSwitcher() {
 function applyTranslations(lang) {
 	const dict = translations[lang];
 	if (!dict) return;
+
+	document.documentElement.setAttribute("data-current-lang", lang);
 
 	// Update elements with data-i18n attribute
 	document.querySelectorAll("[data-i18n]").forEach((elem) => {
